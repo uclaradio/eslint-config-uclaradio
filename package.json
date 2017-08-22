@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-uclaradio",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "An eslint configuration used by UCLA Radio.",
   "main": "index.js",
   "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
@@ -14,7 +14,7 @@
     "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0 || ^4.3.0",
+    "eslint": ">= 3.0",
     "prettier": ">= 1.5"
   }
 }
