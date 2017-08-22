@@ -3,18 +3,18 @@ module.exports = {
     browser: true,
     node: true,
     jquery: true,
-    jest: true
+    jest: true,
   },
-  extends: ["airbnb", "prettier", "prettier/react"],
-  plugins: ["prettier"],
+  extends: ['airbnb', 'prettier', 'prettier/react'],
+  plugins: ['prettier'],
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         singleQuote: true,
-        trailingComma: "es5",
-        jsxBracketSameLine: true
-      }
-    ]
-  }
+        trailingComma: 'es5',
+        jsxBracketSameLine: true,
+      },
+    ],
+  },
 };
