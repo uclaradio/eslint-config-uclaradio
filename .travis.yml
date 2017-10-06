@@ -1,6 +1,14 @@
 language: node_js
 node_js:
-  - "node"
+- node
 before_install: yarn global add greenkeeper-lockfile@1
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
+deploy:
+  provider: npm
+  email: radio.web@media.ucla.edu
+  api_key:
+    secure: hPLhWf///bJd6RJycwlWFDZhiliZKEfnYw/kyk84G2oSGi5VnxDLjeSYolsSjWrAOEPEuafWjSXNAMxN/6A+jzBHkogqmCRLLFgXttqeyA6Om7e/+TVC+7cWg6Ixn2t1gMYMjFWNuQk9UNBKysvVpl63/oYHssM24RORW+mjvUwINTaPKiewzh2NXrsUmPoXoKNGrbG5vUwXe0U5WP/VD1bepCqHzRm0TGUUOJygcodgjsye9xOjAi8EUCjBlp9t8nxbMIjJ1d1/eoUBggTAMWkwygvXyLFu6v5fg+L6ldhHTe07gSyPT+nB1uSzev9FU3M6ZJJKWeFg62WrHU4sIT5Sl2TFgFLOgKdkTiVxjxOb8w0YOiO2NlzNXkziQUHNVw4CJL0MevQ8yIRVC+sVNDaJ8OG+5dSdGyRPTP9b/WCMCL+LMHgwiahMl8KjSB/xPQ51YvZ4GBTduOOmlpGEmSTT6f2Ck4g2xMJeLWb0Tt+2jIFEF0X8B5liuQiWXjERV6T2v8krYJJkqsLR3lubqgnvGd8G1Me9L3+iHd90TedGfj9spXfJiCzNph/hpfMAIx2TkPmmMnX7lLIcHx50zFfqLJE6sjrw9FMWAxofasMgDJxJ6hfUPv73D67YHO38pUc1iczWSYlrm7jT+EiuUpZBac2bUXgrXsxKpHbCQeY=
+  on:
+    tags: true
+    repo: uclaradio/eslint-config-uclaradio
