@@ -1,11 +1,13 @@
 {
   "name": "eslint-config-uclaradio",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "description": "An eslint configuration used by UCLA Radio.",
   "main": "index.js",
-  "author":
-    "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
   "license": "MIT",
+  "scripts": {
+    "release": "standard-version; git sync"
+  },
   "dependencies": {
     "eslint-config-airbnb": "^16.0.0",
     "eslint-config-prettier": "^2.3.0",
@@ -17,5 +19,8 @@
   "peerDependencies": {
     "eslint": "4.8.0",
     "prettier": "1.7.4"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
   }
 }
