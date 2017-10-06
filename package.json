@@ -6,6 +6,9 @@
   "author":
     "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
   "license": "MIT",
+  "scripts": {
+    "release": "standard-version"
+  },
   "dependencies": {
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^2.3.0",
@@ -17,5 +20,8 @@
   "peerDependencies": {
     "eslint": "4.8.0",
     "prettier": "1.7.4"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
   }
 }
