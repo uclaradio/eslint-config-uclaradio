@@ -9,7 +9,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'func-names': ['error', 'as-needed'],
-    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+    'react/jsx-filename-extension': false,
     'prettier/prettier': [
       'error',
       {
