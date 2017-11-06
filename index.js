@@ -8,6 +8,8 @@ module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
   plugins: ['prettier'],
   rules: {
+    'func-names': ['error', 'as-needed'],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
     'prettier/prettier': [
       'error',
       {
