@@ -3,7 +3,8 @@
   "version": "1.0.16",
   "description": "An eslint configuration used by UCLA Radio.",
   "main": "index.js",
-  "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "author":
+    "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
   "license": "MIT",
   "scripts": {
     "release": "yarn version; git town sync"
@@ -17,8 +18,8 @@
     "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
-    "eslint": "4.8.0",
-    "prettier": "1.7.4"
+    "eslint": ">=4.10.0",
+    "prettier": ">=1.7.4"
   },
   "devDependencies": {
     "greenkeeper-lockfile": "^1.12.0",
