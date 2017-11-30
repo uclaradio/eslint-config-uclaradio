@@ -1,10 +1,9 @@
 {
   "name": "eslint-config-uclaradio",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "An eslint configuration used by UCLA Radio.",
   "main": "index.js",
-  "author":
-    "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
   "license": "MIT",
   "scripts": {
     "release": "yarn version; git town sync"
